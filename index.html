@@ -515,7 +515,7 @@
           <div class="col-span-12 lg:col-span-5 order-2 lg:order-1">
             <div class="">
               <p
-                class="text-basem mt-16 uppercase mb-4 font-bold leading-tight text-center lg:text-start text-pink lg:mt-4"
+                class="text-base md:text-lg mt-16 uppercase mb-4 font-bold leading-tight text-center lg:text-start text-pink lg:mt-4"
               >
                 Key features
               </p>
@@ -628,9 +628,105 @@
     </section>
     <!-- best service section end -->
 
+    <!-- testimonials section start -->
+    <div
+      class="relative w-full mx-auto max-w-6xl overflow-hidden px-4 py-10 lg:py-0"
+    >
+      <!-- Heading -->
+      <div class="text-center mb-8 gap-4 flex flex-col">
+        <h3 class="text-pink-500 text-sm md:text-xl font-semibold uppercase">
+          Testimonials
+        </h3>
+        <h2 class="text-2xl md:text-3xl lg:text-[40px] font-bold">
+          Trust our clients
+        </h2>
+      </div>
+
+      <!-- Carousel wrapper -->
+      <div
+        id="carousel"
+        class="flex transition-transform duration-500 ease-in-out"
+      >
+        <!-- Slide 1 -->
+        <div
+          class="min-w-full flex flex-col items-center text-center px-4 gap-4"
+        >
+          <img
+            src="public/asset/logo/testi.png"
+            alt="Avatar"
+            class="rounded-full border-4 border-yellow-400 mb-4"
+          />
+          <p class="text-lg md:text-2xl font-semibold text-pink-600">
+            Mark Smith
+            <span class="text-black font-normal">/ Travel Enthusiast</span>
+          </p>
+          <div class="text-yellow-400 text-2xl my-2">★★★★★</div>
+          <p class="text-sm text-gray-600 md:text-xl max-w-xs">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+
+        <!-- Slide 2 -->
+        <div
+          class="min-w-full flex flex-col items-center text-center px-4 gap-4"
+        >
+          <img
+            src="public/asset/logo/testi.png"
+            alt="Avatar"
+            class="rounded-full border-4 border-blue-400 mb-4"
+          />
+          <p class="text-lg md:text-2xl font-semibold text-pink-600">
+            Jane Doe <span class="text-black font-normal">/ Designer</span>
+          </p>
+          <div class="text-yellow-400 text-2xl my-2">★★★★★</div>
+          <p class="text-sm text-gray-600 md:text-xl max-w-xs">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+
+        <!-- Slide 3 -->
+        <div
+          class="min-w-full flex flex-col items-center text-center px-4 gap-4"
+        >
+          <img
+            src="public/asset/logo/testi.png"
+            alt="Avatar"
+            class="rounded-full border-4 border-red-400 mb-4"
+          />
+          <p class="text-lg md:text-2xl font-semibold text-pink-600">
+            Sahrul
+            <span class="text-black font-normal">/ Front-end Developer</span>
+          </p>
+          <div class="text-yellow-400 text-2xl my-2">★★★★★</div>
+          <p class="text-sm text-gray-600 md:text-xl max-w-xs">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+      </div>
+
+      <!-- Navigation Arrows -->
+      <button
+        onclick="scrollCarousel(-1)"
+        class="absolute top-1/2 -translate-y-1/2 left-2 md:left-6 bg-ungu text-white shadow p-2 rounded-full z-10 w-10 md:w-15 md:h-15"
+      >
+        ←
+      </button>
+      <button
+        onclick="scrollCarousel(1)"
+        class="absolute top-1/2 -translate-y-1/2 right-2 md:right-6 bg-ungu text-white shadow p-2 rounded-full z-10 w-10 md:w-15 md:h-15"
+      >
+        →
+      </button>
+    </div>
+    <!-- testimonials section end -->
+
     <script
       type="module"
       src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
